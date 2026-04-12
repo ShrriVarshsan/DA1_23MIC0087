@@ -12,7 +12,8 @@ JENKINS
 10)	Then code will be pushed to git
 11)	Go to Jenkins -> new item -> free style project -> ok
 12)	Scroll to source code management -> select git ->paste repo URL 
-13)	Scroll build steps -> Execute Shell or execute window bath command 
+13)	Scroll build steps -> Execute Shell or execute window bath command
+    
 #!/bin/bash
 cd "$WORKSPACE"
 mkdir -p bin
@@ -111,6 +112,7 @@ Pom.xml
 </project>
 
 BankService.java
+
 package com.bank;
 
 public class BankService {
@@ -126,6 +128,7 @@ return false;
 }
 
 BankServiceTest.java
+
 package com.bank;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -169,6 +172,7 @@ b.	Type – maven
 7)	Fill detail -> tick this is defect
 
 HomeController.java
+
 package com.example.demo;
 
 import org.springframework.web.bind.annotation.GetMapping;
